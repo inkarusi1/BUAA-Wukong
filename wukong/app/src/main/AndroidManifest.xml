@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.ubtrobot.mini.sdkdemo">
+    xmlns:tools="http://schemas.android.com/tools">
 
-  <uses-permission android:name="com.ubtrobot.master.permission.MASTER"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="com.ubtrobot.master.permission.MASTER"/>
   <uses-permission android:name="com.ubtrobot.master.permission.MASTER_SYSTEM_SERVICE"/>
   <!-- 在SDCard中创建与删除文件权限 -->
 <!--  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"-->
@@ -16,6 +19,10 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
   <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+<!--  hzl: 拍照并存储的权限  -->
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
   <application
       android:name=".DemoApp"

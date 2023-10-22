@@ -34,6 +34,7 @@ android {
     lintOptions {
         abortOnError false
     }
+    namespace 'com.ubtrobot.mini.sdkdemo'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

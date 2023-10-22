@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_action_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/action_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_express_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/express_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_interruptible_skill.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_interruptible_skill.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_activity_small_action.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/activity_small_action.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_object_detect_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/object_detect_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_lp_interruptible_skill.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_lp_interruptible_skill.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_speech_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/speech_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_standup_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/standup_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_sysevent_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/sysevent_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_mouth_led_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/mouth_led_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_skill_path.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_skill_path.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_activity_main.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_activity_phonecall.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/activity_phonecall.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_norecord_unin_skill.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_norecord_unin_skill.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_face_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/face_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_lp_uninterruptible_skill.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_lp_uninterruptible_skill.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_sys_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/sys_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_behavior_activity.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/behavior_activity.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_discover_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/discover_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_motor_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/motor_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_activity_builtin_skill_calls.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/activity_builtin_skill_calls.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_activity_asr.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/activity_asr.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_parallel_skill.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_parallel_skill.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-pngs-5:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_activity_robot_init.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/activity_robot_init.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_main_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/main_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_power_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/power_api_layout.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_apk_silent_installer_api.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/apk_silent_installer_api.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_norecord_in_skill.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_norecord_in_skill.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/xml_demo_uninterruptible_skill.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/xml/demo_uninterruptible_skill.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_activity_skill_api.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/activity_skill_api.xml"
+    },
+    {
+        "merged": "com.ubtrobot.mini.sdkdemo.app-merged_res-9:/layout_take_pic_api_layout.xml.flat",
+        "source": "com.ubtrobot.mini.sdkdemo.app-main-11:/layout/take_pic_api_layout.xml"
+    }
+]

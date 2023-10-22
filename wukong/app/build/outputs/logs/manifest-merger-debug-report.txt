@@ -1,0 +1,434 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:2:1-144:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56e5e0dd128196c308e382e8342f0793\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hzl\.gradle\caches\transforms-3\4e534f338975e1ef436991cee49ed227\transformed\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:2:1-34:12
+MERGED from [:utillib-1.2.8:] C:\Users\hzl\.gradle\caches\transforms-3\a4813a0f8a84250ea834f545407e5c75\transformed\utillib-1.2.8\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\e1ccd6b4003bd84041b0cfe709021ac4\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\9eea2d862e9d97d859e430a428f4643a\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a4f9ae755789b5efa98c05c37c2fe0c0\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\7a76809e554e2dd1976f7913ad2c287d\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\84033949008d4ac12fb61fe0a0cf3e66\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\f958a226c6cffde98fa6b21ba4eb7ffc\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\72dfdd44959d8511e3ecf878ad3c8ff4\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\650af3322b97d957cd0db591b12e0b16\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\6eeb916cb60c886bdbdeb477ab32f986\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\e3935ed097dede62fd1c4735b51ef62b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\33bc2f2140100049223547e91a5f4f87\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\7f5c3e83695344c2ff3c216768a766cb\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a9ff4d412f275c3cc002f45c3a2af66f\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56b0eefc20631d118d83b95b91e38256\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\13992d7562ae36fb14375d07046f6437\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a8d17e04e7d81b05a17aebf6dc7003f5\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\3cf6db8e98904817a711ec7fa43f1d91\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\49a20b70bc355596a6acf91d2b3dfbe3\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\170f05762f1d5751df8cc35960c85f68\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\2581c27e8000688214c8c89bf1a4bf82\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\42fda92e6cad4478a4bac13175b64feb\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\99caa651055a1e5ca1bc67fa29e4a134\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\3d8366f6017ed179f680e2d77817ecb0\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\ab56da83619650fd04c73fe9e587f594\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\747d49bb70501c3c7682700db26d57d0\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:5:5-7:36
+	android:required
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:7:9-33
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:6:9-47
+uses-permission#com.ubtrobot.master.permission.MASTER
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:9:5-76
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:11:5-77
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:9:22-74
+uses-permission#com.ubtrobot.master.permission.MASTER_SYSTEM_SERVICE
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:10:3-89
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:12:5-92
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:12:5-92
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:10:20-87
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:15:3-78
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:20:5-81
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:15:20-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:16:3-77
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:24:5-80
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:16:20-75
+uses-permission#android.permission.INTERNET
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:17:3-65
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:13:5-67
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:17:20-62
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:18:3-77
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:19:5-79
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:18:20-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:19:3-77
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:16:5-79
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:19:20-74
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:21:3-68
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:22:5-71
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:21:20-66
+uses-permission#android.permission.CAMERA
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:24:3-63
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:24:20-60
+application
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:27:3-142:17
+INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:27:3-142:17
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hzl\.gradle\caches\transforms-3\4e534f338975e1ef436991cee49ed227\transformed\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hzl\.gradle\caches\transforms-3\4e534f338975e1ef436991cee49ed227\transformed\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56b0eefc20631d118d83b95b91e38256\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56b0eefc20631d118d83b95b91e38256\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\13992d7562ae36fb14375d07046f6437\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\13992d7562ae36fb14375d07046f6437\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:extractNativeLibs
+		INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56b0eefc20631d118d83b95b91e38256\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:33:7-33
+	android:label
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:31:7-39
+	android:roundIcon
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:30:7-41
+	android:allowBackup
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:29:7-33
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:28:7-30
+activity#com.ubtrobot.mini.sdkdemo.MainActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:37:5-44:16
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:37:15-43
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:38:7-43:23
+action#android.intent.action.MAIN
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:39:9-60
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:39:17-58
+action#android.intent.action.VIEW
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:40:9-60
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:40:17-58
+category#android.intent.category.LAUNCHER
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:42:9-68
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:42:19-66
+activity#com.ubtrobot.mini.sdkdemo.ActionApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:45:5-47:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:47:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:46:9-42
+activity#com.ubtrobot.mini.sdkdemo.ExpressApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:48:5-50:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:50:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:49:9-43
+activity#com.ubtrobot.mini.sdkdemo.SpeechApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:51:5-53:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:53:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:52:9-42
+activity#com.ubtrobot.mini.sdkdemo.MotorApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:54:5-56:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:56:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:55:9-41
+activity#com.ubtrobot.mini.sdkdemo.FaceApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:57:5-59:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:59:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:58:9-40
+activity#com.ubtrobot.mini.sdkdemo.ObjectDetectApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:60:5-62:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:62:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:61:9-48
+activity#com.ubtrobot.mini.sdkdemo.TakePicApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:63:5-65:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:65:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:64:9-43
+activity#com.ubtrobot.mini.sdkdemo.MouthLedApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:66:5-68:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:68:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:67:9-44
+activity#com.ubtrobot.mini.sdkdemo.SysEventApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:69:5-71:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:71:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:70:9-44
+activity#com.ubtrobot.mini.sdkdemo.SysApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:72:5-74:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:74:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:73:9-39
+activity#com.ubtrobot.mini.sdkdemo.StandupApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:75:5-77:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:77:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:76:9-43
+activity#com.ubtrobot.mini.sdkdemo.SkillApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:78:5-80:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:80:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:79:9-41
+activity#com.ubtrobot.mini.sdkdemo.PowerApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:81:5-83:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:83:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:82:9-41
+activity#com.ubtrobot.mini.sdkdemo.BehaviorActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:84:5-86:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:86:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:85:9-41
+activity#com.ubtrobot.mini.sdkdemo.RobotInitActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:87:5-89:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:89:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:88:9-42
+activity#com.ubtrobot.mini.sdkdemo.DiscorverActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:90:5-92:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:92:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:91:9-42
+activity#com.ubtrobot.mini.sdkdemo.PhoneCallApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:93:5-95:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:95:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:94:9-45
+activity#com.ubtrobot.mini.sdkdemo.ApkSilentInstallerApiActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:97:5-98:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:98:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:97:15-60
+activity#com.ubtrobot.mini.sdkdemo.BuiltInSkillCallTestActivity
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:99:5-100:42
+	android:theme
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:100:9-40
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:99:15-59
+service#com.ubtrobot.mini.sdkdemo.DemoSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:102:5-105:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:103:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:102:14-39
+meta-data#master.skill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:104:7-88
+	android:resource
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:104:46-85
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:104:18-45
+service#com.ubtrobot.mini.sdkdemo.skills.InterruptibleSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:107:5-110:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:108:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:107:14-55
+service#com.ubtrobot.mini.sdkdemo.skills.UnInterruptibleSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:112:5-115:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:113:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:112:14-57
+service#com.ubtrobot.mini.sdkdemo.skills.ParallelSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:118:5-121:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:119:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:118:14-50
+service#com.ubtrobot.mini.sdkdemo.skills.NoRecordInterrutibleSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:123:5-126:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:124:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:123:14-62
+service#com.ubtrobot.mini.sdkdemo.skills.NoRecordUnInterrutibleSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:128:5-131:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:129:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:128:14-64
+service#com.ubtrobot.mini.sdkdemo.skills.LowpowerInterruptibleSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:133:5-136:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:134:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:133:14-63
+service#com.ubtrobot.mini.sdkdemo.skills.LowpowerUnInterruptibleSkill
+ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:138:5-141:15
+	android:exported
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:139:9-32
+	android:name
+		ADDED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml:138:14-65
+uses-sdk
+INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56e5e0dd128196c308e382e8342f0793\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56e5e0dd128196c308e382e8342f0793\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hzl\.gradle\caches\transforms-3\4e534f338975e1ef436991cee49ed227\transformed\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hzl\.gradle\caches\transforms-3\4e534f338975e1ef436991cee49ed227\transformed\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:7:5-9:41
+MERGED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:7:5-9:41
+MERGED from [:utillib-1.2.8:] C:\Users\hzl\.gradle\caches\transforms-3\a4813a0f8a84250ea834f545407e5c75\transformed\utillib-1.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [:utillib-1.2.8:] C:\Users\hzl\.gradle\caches\transforms-3\a4813a0f8a84250ea834f545407e5c75\transformed\utillib-1.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\e1ccd6b4003bd84041b0cfe709021ac4\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\e1ccd6b4003bd84041b0cfe709021ac4\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\9eea2d862e9d97d859e430a428f4643a\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\9eea2d862e9d97d859e430a428f4643a\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a4f9ae755789b5efa98c05c37c2fe0c0\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a4f9ae755789b5efa98c05c37c2fe0c0\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\7a76809e554e2dd1976f7913ad2c287d\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\7a76809e554e2dd1976f7913ad2c287d\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\84033949008d4ac12fb61fe0a0cf3e66\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\84033949008d4ac12fb61fe0a0cf3e66\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\f958a226c6cffde98fa6b21ba4eb7ffc\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\f958a226c6cffde98fa6b21ba4eb7ffc\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\72dfdd44959d8511e3ecf878ad3c8ff4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\72dfdd44959d8511e3ecf878ad3c8ff4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\650af3322b97d957cd0db591b12e0b16\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\650af3322b97d957cd0db591b12e0b16\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\6eeb916cb60c886bdbdeb477ab32f986\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\6eeb916cb60c886bdbdeb477ab32f986\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\e3935ed097dede62fd1c4735b51ef62b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\e3935ed097dede62fd1c4735b51ef62b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\33bc2f2140100049223547e91a5f4f87\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\33bc2f2140100049223547e91a5f4f87\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\7f5c3e83695344c2ff3c216768a766cb\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\7f5c3e83695344c2ff3c216768a766cb\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a9ff4d412f275c3cc002f45c3a2af66f\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a9ff4d412f275c3cc002f45c3a2af66f\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56b0eefc20631d118d83b95b91e38256\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\56b0eefc20631d118d83b95b91e38256\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\13992d7562ae36fb14375d07046f6437\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\13992d7562ae36fb14375d07046f6437\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a8d17e04e7d81b05a17aebf6dc7003f5\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\a8d17e04e7d81b05a17aebf6dc7003f5\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\3cf6db8e98904817a711ec7fa43f1d91\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\3cf6db8e98904817a711ec7fa43f1d91\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\49a20b70bc355596a6acf91d2b3dfbe3\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\49a20b70bc355596a6acf91d2b3dfbe3\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\170f05762f1d5751df8cc35960c85f68\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\170f05762f1d5751df8cc35960c85f68\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\2581c27e8000688214c8c89bf1a4bf82\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\2581c27e8000688214c8c89bf1a4bf82\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\42fda92e6cad4478a4bac13175b64feb\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\42fda92e6cad4478a4bac13175b64feb\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\99caa651055a1e5ca1bc67fa29e4a134\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\99caa651055a1e5ca1bc67fa29e4a134\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\3d8366f6017ed179f680e2d77817ecb0\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\3d8366f6017ed179f680e2d77817ecb0\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\ab56da83619650fd04c73fe9e587f594\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hzl\.gradle\caches\transforms-3\ab56da83619650fd04c73fe9e587f594\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\747d49bb70501c3c7682700db26d57d0\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hzl\.gradle\caches\transforms-3\747d49bb70501c3c7682700db26d57d0\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Uni_homework\Android\BUAAXWukong\wukong\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:17:5-76
+MERGED from [:utillib-1.2.8:] C:\Users\hzl\.gradle\caches\transforms-3\a4813a0f8a84250ea834f545407e5c75\transformed\utillib-1.2.8\AndroidManifest.xml:11:5-76
+MERGED from [:utillib-1.2.8:] C:\Users\hzl\.gradle\caches\transforms-3\a4813a0f8a84250ea834f545407e5c75\transformed\utillib-1.2.8\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:18:5-76
+MERGED from [:utillib-1.2.8:] C:\Users\hzl\.gradle\caches\transforms-3\a4813a0f8a84250ea834f545407e5c75\transformed\utillib-1.2.8\AndroidManifest.xml:12:5-76
+MERGED from [:utillib-1.2.8:] C:\Users\hzl\.gradle\caches\transforms-3\a4813a0f8a84250ea834f545407e5c75\transformed\utillib-1.2.8\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:21:5-86
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:21:22-83
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:26:22-76
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:27:22-81
+uses-permission#com.ubtechinc.contact.PROVIDER
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:28:5-70
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:28:22-67
+uses-permission#com.harvic.contentProviderBlog.read
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:29:22-72
+uses-permission#com.ubtrobot.analytics.permissions.ANALYTICS
+ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:32:5-84
+	android:name
+		ADDED from [:phonecall-sdk-release:] C:\Users\hzl\.gradle\caches\transforms-3\eeabcde58eb86816c08e8d7ae277b767\transformed\phonecall-sdk-release\AndroidManifest.xml:32:22-81
