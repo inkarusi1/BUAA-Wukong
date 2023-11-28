@@ -1,0 +1,88 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.navbar'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.navbar"
+        minSdk 24
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+
+    /* hzl add: to add *.arr to External Libraries */
+//    repositories {
+//        maven { url 'https://www.jitpack.io' }
+//        google()
+//        jcenter()
+//        flatDir {
+//            dirs 'libs'
+//        }
+//    }
+//    repositories {
+//        flatDir {
+//            dirs 'libs'
+//        }
+//    }
+//
+//    lintOptions {
+//        abortOnError false
+//    }
+    // 使得编译过程中将 lint 警告当作错误来对待
+    lintOptions {
+        warningsAsErrors true
+        // 启用 lint 检查，对应 -Xlint:deprecation
+        checkReleaseBuilds true
+        // 允许未检查操作，对应 -Xlint:unchecked
+        disable 'Unchecked'
+    }
+}
+
+dependencies {
+    // hzl add
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation(name: 'phonecall-sdk-release', ext: 'aar')
+    implementation(name: 'utillib-1.2.8', ext: 'aar')
+    implementation 'com.google.code.gson:gson:2.8.9'
+    // hyf add
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+
+    //滚动选择器
+    implementation 'com.contrarywind:Android-PickerView:4.1.7'
+    //路径选择
+    implementation 'com.github.ZLYang110:FileSelector:2.1.6'
+    //权限申请
+    implementation 'com.github.ZLYang110:MyPermission:1.0'
+    //
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.2'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+    implementation 'androidx.navigation:navigation-fragment:2.7.5'
+    implementation 'androidx.navigation:navigation-ui:2.7.5'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
