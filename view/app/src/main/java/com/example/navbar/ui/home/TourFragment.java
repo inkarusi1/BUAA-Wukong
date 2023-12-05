@@ -2,10 +2,8 @@ package com.example.navbar.ui.home;
 
 import static android.app.Activity.RESULT_OK;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
@@ -22,8 +20,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.bigkoo.pickerview.builder.OptionsPickerBuilder;
@@ -36,7 +32,6 @@ import com.example.navbar.util.Speaker;
 import com.example.navbar.util.TourUnit;
 import com.example.navbar.R;
 import com.ubtrobot.commons.Priority;
-import com.ubtrobot.master.Master;
 import com.ubtrobot.mini.voice.VoicePool;
 import com.zlylib.fileselectorlib.FileSelector;
 import com.zlylib.fileselectorlib.utils.Const;
@@ -52,6 +47,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 
@@ -68,10 +64,17 @@ public class TourFragment extends Fragment {
     private Speaker speaker;
 
     private ArrayList<TourUnit> tourUnits = new ArrayList<TourUnit>();
-    private ArrayList<String> tourTitles = new ArrayList<String>();
-    private Integer nowTour = -1;
+    private HashMap<String, ArrayList<TourUnit>> tourMap = new HashMap<String, ArrayList<TourUnit>>();
+    private HashMap<String, ArrayList<String>> tourTitlesMap = new HashMap<String, ArrayList<String>>();
+    private List<String> locaTitles = new ArrayList<String>();
+    private List<List<String>> scenicList = new ArrayList<>();
+
     private String tv_backResult = "";
     private MyBitmapUtils myBitmapUtils;
+    private OptionsPickerView mOptionsPicker;
+
+    private Integer nowTour = -1;
+    private Integer nowLoca = -1;
 
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -85,6 +88,13 @@ public class TourFragment extends Fragment {
         image = view.findViewById(R.id.image);
         speaker = new Speaker();
         Context context = getContext();
+
+        initPickerView();//初始化选择器
+        if (nowTour + nowLoca != -2) {
+            title.setText((String) scenicList.get(nowLoca).get(nowTour) );
+            brief.setText(Objects.requireNonNull(tourMap.get(locaTitles.get(nowLoca))).get(nowTour).getBrief());
+            setImage(Objects.requireNonNull(tourMap.get(locaTitles.get(nowLoca))).get(nowTour).getImageId(), Objects.requireNonNull(tourMap.get(locaTitles.get(nowLoca))).get(nowTour).getImgUrl());
+        }
 
         // 根据Android版本判断是否申请文件访问权限
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
@@ -100,6 +110,12 @@ public class TourFragment extends Fragment {
             tourUnits.add(new TourUnit("第一个景点", "这是第一个景点简介\n".repeat(8), "这是第一个景点简介\n".repeat(20)));
             tourUnits.add(new TourUnit("第二个景点", "这是第二个景点简介\n".repeat(8), "这是第二个景点简介\n".repeat(20)));
             tourUnits.add(new TourUnit("第三个景点", "这是第三个景点简介\n".repeat(8), "这是第三个景点简介\n".repeat(20), "https://s1.imagehub.cc/images/2023/11/23/92ecfd2d768fe4d9e9dc401ce67b74f2.png"));
+            tourMap.put("位置1", tourUnits);
+            tourUnits = new ArrayList<TourUnit>();
+            tourUnits.add(new TourUnit("第四个景点", "这是第四个景点简介\n".repeat(8), "这是第一个景点简介\n".repeat(20)));
+            tourUnits.add(new TourUnit("第五个景点", "这是第五个景点简介\n".repeat(8), "这是第二个景点简介\n".repeat(20)));
+            tourUnits.add(new TourUnit("第六个景点", "这是第六个景点简介\n".repeat(8), "这是第三个景点简介\n".repeat(20), "https://s1.imagehub.cc/images/2023/11/23/92ecfd2d768fe4d9e9dc401ce67b74f2.png"));
+            tourMap.put("位置2", tourUnits);
             //更新标题
             setTitles();
         }
@@ -110,18 +126,23 @@ public class TourFragment extends Fragment {
                 //条件选择器
                 OptionsPickerView<Object> pvOptions = new OptionsPickerBuilder(context, new OnOptionsSelectListener() {
                     @Override
-                    public void onOptionsSelect(int options1, int option2, int options3 ,View v) {
+                    public void onOptionsSelect(int options1, int option2, int options3 ,View v) { // option1代表地点，option2代表景点\
                         //设置标题
-                        title.setText((String) tourTitles.get(options1));
+                        //title.setText((String) locaTitles.get(options1));
+                        title.setText((String) scenicList.get(options1).get(option2) );
                         //设置简介
-                        brief.setText(tourUnits.get(options1).getBrief());
+                        //brief.setText(tourUnits.get(options1).getBrief());
+                        brief.setText(tourMap.get(locaTitles.get(options1)).get(option2).getBrief());
                         //设置当前景点
-                        nowTour = options1;
+                        nowLoca = options1;
+                        nowTour = option2;
                         //图片
-                        setImage(tourUnits.get(options1).getImageId(), tourUnits.get(options1).getImgUrl());
+                        //setImage(tourUnits.get(options1).getImageId(), tourUnits.get(options1).getImgUrl());
+                        setImage(tourMap.get(locaTitles.get(options1)).get(option2).getImageId(), tourMap.get(locaTitles.get(options1)).get(option2).getImgUrl());
                     }
                 }).build();
-                pvOptions.setPicker((List)tourTitles);
+                pvOptions.setPicker((List) locaTitles);
+                pvOptions.setPicker((List) locaTitles,  (List)scenicList);
                 pvOptions.show();
             }
         });
@@ -152,6 +173,17 @@ public class TourFragment extends Fragment {
 
 
         return view;
+    }
+
+    //视图将要销毁时
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        //缓存title、brief、image
+        //缓存title
+        //缓存brief
+        //缓存image
+
     }
 
     private void setImage(int imageId, String imgUrl) {
@@ -189,9 +221,17 @@ public class TourFragment extends Fragment {
         }
     };
     private void setTitles() {
-        tourTitles.clear();
-        for (TourUnit tourUnit : tourUnits) {
-            tourTitles.add(tourUnit.getTitle());
+        locaTitles.clear();
+        locaTitles.addAll(tourMap.keySet());
+        scenicList.clear();
+        for (String loca :
+                locaTitles) {
+            ArrayList<String> scenicTitles = new ArrayList<String>();
+            for (TourUnit tourUnit :
+                    Objects.requireNonNull(tourMap.get(loca))) {
+                scenicTitles.add(tourUnit.getTitle());
+            }
+            scenicList.add(scenicTitles);
         }
     }
 
@@ -200,7 +240,7 @@ public class TourFragment extends Fragment {
         //播放解说稿
         Toast.makeText(getContext(), "播放解说", Toast.LENGTH_SHORT).show();
         if (nowTour != -1) {
-            String plain = tourUnits.get(nowTour).getBrief();
+            String plain = Objects.requireNonNull(tourMap.get(locaTitles.get(nowLoca))).get(nowTour).getExplain();
             speaker.speak(plain);
         } else {
             VoicePool.get().playTTs("请选择场景哦~", Priority.NORMAL, null);
@@ -270,21 +310,31 @@ public class TourFragment extends Fragment {
         //将tv_backResult路径下的文件存储到str中
         String str = "";
         File path = new File(tv_backResult);
+        //取出tv_backResult中的文件名: 通过 / 分割tv_backResult，取出最后一项
+        String fileName = tv_backResult.split("/")[tv_backResult.split("/").length - 1];
+        //去除后缀名
+        fileName = fileName.substring(0,fileName.lastIndexOf("."));
         //将path路径下的文件存储到str中
         str = getFileContent(path);
         //brief.setText(str);
         //使用json格式解析str
         try {
             JSONObject jo = new JSONObject(str);
+            //取出json结构中的locaName
+            String locaName = fileName;
+            if (jo.has("locaName"))
+                locaName = jo.getString("locaName");
             int i = 1;
+            ArrayList<TourUnit> tmp = new ArrayList<TourUnit>();
             while (jo.has(String.valueOf(i))) {
                 String title = jo.getJSONObject(String.valueOf(i)).getString("title");
                 String brief = jo.getJSONObject(String.valueOf(i)).getString("brief");
                 String explain = jo.getJSONObject(String.valueOf(i)).getString("explain");
                 String imgUrl = jo.getJSONObject(String.valueOf(i)).getString("imageUrl");
-                tourUnits.add(new TourUnit(title, brief, explain, imgUrl));
+                tmp.add(new TourUnit(title, brief, explain, imgUrl));
                 i++;
             }
+            tourMap.put(locaName, tmp);
             //更新标题
             setTitles();
             Toast.makeText(getContext(), "导入成功", Toast.LENGTH_SHORT).show();
@@ -338,6 +388,12 @@ public class TourFragment extends Fragment {
             }
         }
         return str;
+    }
+
+
+    //initPickerView
+    private void initPickerView() {
+
     }
 
 }

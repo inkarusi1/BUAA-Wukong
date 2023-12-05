@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -29,6 +30,7 @@ public class ChatFragment extends Fragment {
     private static final String TAG = "ChatFragment";
     private List<Msg> msgList = new ArrayList<>();
     private RecyclerView msgRecyclerView;
+    private Integer a;
     private Button voice;
     private EditText inputText;
     private Button send;
@@ -41,6 +43,7 @@ public class ChatFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_chat, container, false);
 
         msgRecyclerView = view.findViewById(R.id.msg_recycler_view);
@@ -48,7 +51,10 @@ public class ChatFragment extends Fragment {
         inputText = view.findViewById(R.id.input_text);
         send = view.findViewById(R.id.send);
         layoutManager = new LinearLayoutManager(getActivity());
-        adapter = new MsgAdapter(msgList = getData());
+        if (msgList.size() == 0) {
+            msgList = getData();
+        }
+        adapter = new MsgAdapter(msgList);
         speaking = false;
 
         msgRecyclerView.setLayoutManager(layoutManager);
@@ -92,8 +98,8 @@ public class ChatFragment extends Fragment {
 
                         // 获取人工智能回复
 //                        OkHttpUtils.getInstance().callResponseOf(content, ChatFragment.this);
-                        String hello = "hello, world";
-                        inputText.setText(hello);
+//                        String hello = "hello, world";
+//                        inputText.setText(hello);
                     }
 
                     // Your custom one-question-one-answer logic here
@@ -109,6 +115,9 @@ public class ChatFragment extends Fragment {
     }
 
     private List<Msg> getData() {
+        if (msgList.size() > 0) {
+            return msgList;
+        }
         List<Msg> list = new ArrayList<>();
         list.add(new Msg("Hello", Msg.TYPE_RECEIVED));
         return list;
@@ -133,5 +142,25 @@ public class ChatFragment extends Fragment {
         msgList.clear();
         adapter.notifyDataSetChanged();
     }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("inputText", inputText.getText().toString());
+        outState.putSerializable("msgList", (ArrayList<Msg>) msgList);
+    }
+
+    @Override
+    public void onViewStateRestored(@Nullable Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+        if (savedInstanceState != null) {
+            inputText.setText(savedInstanceState.getString("inputText"));
+            msgList = (ArrayList<Msg>) savedInstanceState.getSerializable("msgList");
+            adapter = new MsgAdapter(msgList);
+            msgRecyclerView.setAdapter(adapter);
+        }
+    }
+
+
 
 }
