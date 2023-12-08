@@ -13,6 +13,7 @@ import android.widget.EditText;
 
 import androidx.core.app.ActivityCompat;
 
+import com.example.navbar.ui.chat.ChatFragment;
 import com.ubtrobot.speech.SpeechApiExtra;
 import com.ubtrobot.speech.asr.AsrRequest;
 
@@ -31,16 +32,16 @@ public class AsrThread extends Thread {
     private volatile byte[] finalBuffer;
     private static String result;
     private boolean running;
-    private EditText inputText;  // 来自ChatFragment
+    private ChatFragment chatFragment;  // 来自聊天fragment
 
-    public AsrThread(Context context1, EditText editText) {
+    public AsrThread(Context context1, ChatFragment fragment) {
         this.context = context1;
         this.listening = true;
         this.speaker = new Speaker();
         speechApiExtra = SpeechApiExtra.get();
         this.finalBuffer = new byte[0];
         this.running = false;
-        this.inputText = editText;
+        this.chatFragment = fragment;
     }
 
     /*
@@ -51,12 +52,10 @@ public class AsrThread extends Thread {
         getSay();
         Log.i(TAG, "xxxxxx result: [" + result + "][" + finalBuffer.length + "]");
         speaker.speak("让本大爷来说：" + result);
-//        inputText.setText(result);
-        Log.i(TAG, "asrThread end!");
-//        while (listening) {
-//            running = !running;
+//        if (chatFragment != null) {
+//            chatFragment.setInputText(result);
 //        }
-//        result += result;
+        Log.i(TAG, "asrThread end!");
     }
 
     public void endThread() {

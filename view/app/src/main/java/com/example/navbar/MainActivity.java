@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding; //中文解释：ActivityMainBinding是一个类，binding是一个对象，这个对象是ActivityMainBinding类的一个实例
     Handler handler = new Handler(Looper.getMainLooper());
+    private String place = "北京航空航天大学";
+    private String plain = "北京航空航天大学创建于1952年，是由当时清华大学等八所院校的航空院系合并而成的新中国第一所航空航天科技大学。";
 
 
     @Override
@@ -50,6 +52,19 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
         NavigationUI.setupWithNavController(binding.navView, navController);
+    }
+
+    public void setScene(String place, String plain) {
+        this.place = place == null ? this.place : place;
+        this.plain = plain == null ? this.plain : plain;
+    }
+
+    public String getPlace() {
+        return place;
+    }
+
+    public String getPlain() {
+        return plain;
     }
 
 }

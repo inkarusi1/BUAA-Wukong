@@ -11,6 +11,7 @@ import java.util.HashMap;
 import android.os.Handler;
 import android.util.Log;
 
+import com.example.navbar.MainActivity;
 import com.example.navbar.ui.chat.ChatFragment;
 import com.ubtrobot.commons.Priority;
 import com.ubtrobot.mini.voice.VoicePool;
@@ -59,7 +60,10 @@ public class OkHttpUtils {
 
     public void callResponseOf(String dialog, ChatFragment chatFragment) {
         isResponding = true;
-        String identityWord = "你是一个优秀的导游，";
+        MainActivity activity = (MainActivity) chatFragment.getActivity();
+        String place = activity.getPlace();
+        String plain = activity.getPlain();
+        String identityWord = "你是一个导游 你们正在" + place;
         // 下面
         doPost("https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions_pro?access_token=24.9c65bacffed8ae899e34d44ce4fa1824.2592000.1703418907.282335-43657459", new ApiCallBack() {
                     @Override
@@ -73,11 +77,13 @@ public class OkHttpUtils {
                     @Override
                     public void onError(Exception e) {
                         responseStr = "网络操作失败：" + e.getMessage();
+                        chatFragment.addReceiveMsg(responseStr);
                         Log.e(TAG, "网络操作失败：" + e.getMessage());
                     }
                 }
                 , identityWord, dialog);
         isResponding = false;
+//        chatFragment.addReceiveMsg(identityWord);
     }
 
     public void doPost(String url, ApiCallBack callBack, String identityWord, String dialog){

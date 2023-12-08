@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.navbar.MainActivity;
 import com.example.navbar.util.AsrThread;
 import com.example.navbar.util.Msg;
 import com.example.navbar.util.MsgAdapter;
@@ -65,12 +66,11 @@ public class ChatFragment extends Fragment {
             public void onClick(View v) {
                 if (!speaking) {
                     Toast.makeText(getContext(), "开始录音", Toast.LENGTH_LONG).show();
-                    asrThread = new AsrThread(requireContext(), inputText);
+                    asrThread = new AsrThread(requireContext(), ChatFragment.this);
                     asrThread.start();
                     speaking = true;
                 } else {
                     asrThread.endThread();
-                    String result = AsrThread.getResult();
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
@@ -78,7 +78,6 @@ public class ChatFragment extends Fragment {
                             Log.i(TAG, "xxxxxxxxxx ChatFragment: [" + AsrThread.getResult() + "]");
                         }
                     }, 3000);
-//                    inputText.setText(result);
                     speaking = false;
                     Toast.makeText(getContext(), "录音结束", Toast.LENGTH_LONG).show();
                 }
@@ -91,27 +90,22 @@ public class ChatFragment extends Fragment {
                 if (!OkHttpUtils.getInstance().isResponding()) {
                     String content = inputText.getText().toString();
                     if (!content.equals("")) {
-                        msgList.add(new Msg(content, Msg.TYPE_SEND));
-                        adapter.notifyItemInserted(msgList.size() - 1);
-                        msgRecyclerView.scrollToPosition(msgList.size() - 1);
+                        addSendMsg(content);
                         inputText.setText("");
-
                         // 获取人工智能回复
-//                        OkHttpUtils.getInstance().callResponseOf(content, ChatFragment.this);
-//                        String hello = "hello, world";
-//                        inputText.setText(hello);
+                        OkHttpUtils.getInstance().callResponseOf(content, ChatFragment.this);
                     }
-
-                    // Your custom one-question-one-answer logic here
-                    // ...
                 } else {
                     Toast.makeText(getContext(), "我还在回答中哦", Toast.LENGTH_LONG).show();
                 }
-
             }
         });
 
         return view;
+    }
+
+    public void setInputText(String text) {
+        inputText.setText(text);
     }
 
     private List<Msg> getData() {
